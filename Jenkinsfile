@@ -1,10 +1,10 @@
 pipeline {
-  agent any
+  agent { docker { image 'maven:3.6-jdk-11' } }
   stages {
     stage('Build') {
       steps {
         checkout([$class: 'GitSCM', branches: [[name: '*/master']], userRemoteConfigs: [[url: 'https://github.com/DiabloHunter/Jenkins.git']]])
-        sh 'mvn -B -DskipTests clean package'
+        sh 'mvn -B clean install'
         script {
           dockerImage = docker.build("djablo/test_repo:${env.BUILD_ID}")
         }
