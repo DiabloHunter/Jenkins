@@ -1,8 +1,11 @@
 pipeline {
   agent {
     docker {
-      image 'maven:3.6-jdk-11'
-      args '-v /var/run/docker.sock:/var/run/docker.sock -v /root/.m2:/root/.m2'
+      image 'my-docker-image'
+      registryUrl 'https://registry.hub.docker.com'
+      registryCredentialsId 'my-dockerhub-credentials'
+     /*  image 'maven:3.6-jdk-11'
+      args '-v /var/run/docker.sock:/var/run/docker.sock -v /root/.m2:/root/.m2' */
     }
   }
   stages {
