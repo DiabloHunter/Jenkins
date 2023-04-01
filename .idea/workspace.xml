@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f698ea44-0622-42c3-b07d-49a9696a0f3a" name="Changes" comment="Change jenkins file #11" />
+    <list default="true" id="f698ea44-0622-42c3-b07d-49a9696a0f3a" name="Changes" comment="Change jenkins file #12" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -132,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680365720748</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Change jenkins file #12">
+      <created>1680366087782</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1680366087782</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -158,6 +165,7 @@
     <MESSAGE value="Change jenkins file #7" />
     <MESSAGE value="Change jenkins file #10" />
     <MESSAGE value="Change jenkins file #11" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change jenkins file #11" />
+    <MESSAGE value="Change jenkins file #12" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change jenkins file #12" />
   </component>
 </project>
