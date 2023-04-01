@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f698ea44-0622-42c3-b07d-49a9696a0f3a" name="Changes" comment="Change jenkins file for second task">
-      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
-    </list>
+    <list default="true" id="f698ea44-0622-42c3-b07d-49a9696a0f3a" name="Changes" comment="Change jenkins file #3" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,7 +68,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680361446018</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Change jenkins file #2">
+      <created>1680361740003</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680361740003</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Change jenkins file #3">
+      <created>1680361902840</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680361902840</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -88,6 +100,8 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Change docker and jenkins files" />
     <MESSAGE value="Change jenkins file for second task" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change jenkins file for second task" />
+    <MESSAGE value="Change jenkins file #2" />
+    <MESSAGE value="Change jenkins file #3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change jenkins file #3" />
   </component>
 </project>

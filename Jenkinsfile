@@ -19,7 +19,7 @@ pipeline {
       steps {
         script {
           withCredentials([usernamePassword(credentialsId: 'dockerhub', usernameVariable: 'djablo', passwordVariable: 'Zxcasdqwe2002@')]) {
-            docker.withRegistry('https://registry.hub.docker.com', 'docker-registry-credentials') {
+            docker.withRegistry('https://registry.hub.docker.com', 'docker_cred') {
                 dockerImage.push()
             }
           }
