@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f698ea44-0622-42c3-b07d-49a9696a0f3a" name="Changes" comment="Change jenkins file #14" />
+    <list default="true" id="f698ea44-0622-42c3-b07d-49a9696a0f3a" name="Changes" comment="Change jenkins file #15" />
     <list id="11ee498b-2d7c-441e-bafe-308ee8748c8f" name="warn" comment="warn">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -31,17 +31,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Daniil_Haiduk/MyFolder/projects/Test1&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Daniil_Haiduk/MyFolder/projects/Test1",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Daniil_Haiduk\MyFolder\projects\Test1" />
@@ -161,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680527988306</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Change jenkins file #15">
+      <created>1680528542442</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1680528542442</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -190,6 +197,7 @@
     <MESSAGE value="Change jenkins file #12" />
     <MESSAGE value="Change jenkins file #13" />
     <MESSAGE value="Change jenkins file #14" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change jenkins file #14" />
+    <MESSAGE value="Change jenkins file #15" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change jenkins file #15" />
   </component>
 </project>

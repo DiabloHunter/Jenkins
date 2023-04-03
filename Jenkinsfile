@@ -4,6 +4,9 @@ pipeline {
       image 'maven:3.6-jdk-11'
     }
   }
+  environment {
+      PATH = "$PATH:/usr/bin"
+    }
   stages {
     stage('Build') {
       steps {
