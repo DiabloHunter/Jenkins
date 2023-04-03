@@ -1,8 +1,9 @@
 pipeline {
-  agent any
-  environment {
-      PATH = "$PATH:/usr/bin"
+  agent {
+    docker {
+      image 'maven:3.6-jdk-11'
     }
+  }
   stages {
     stage('Build') {
       steps {
