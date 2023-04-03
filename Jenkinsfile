@@ -2,7 +2,6 @@ pipeline {
   agent {
     docker {
       image 'maven:3.6-jdk-11'
-      args '-v /var/run/docker.sock:/var/run/docker.sock -v "$PWD:/workspace" -w /workspace'
     }
   }
   stages {
