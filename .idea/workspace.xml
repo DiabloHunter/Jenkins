@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f698ea44-0622-42c3-b07d-49a9696a0f3a" name="Changes" comment="Change jenkins file #13">
-      <change afterPath="$PROJECT_DIR$/app33.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
-    <list id="11ee498b-2d7c-441e-bafe-308ee8748c8f" name="warn" comment="">
+    <list default="true" id="f698ea44-0622-42c3-b07d-49a9696a0f3a" name="Changes" comment="Change jenkins file #14" />
+    <list id="11ee498b-2d7c-441e-bafe-308ee8748c8f" name="warn" comment="warn">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,24 +16,11 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="third" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/.idea/workspace.xml">
-      <ranges>
-        <range start1="6" end1="7" start2="6" end2="13" changelist="f698ea44-0622-42c3-b07d-49a9696a0f3a" />
-        <range start1="13" end1="13" start2="19" end2="24" changelist="f698ea44-0622-42c3-b07d-49a9696a0f3a" />
-        <range start1="15" end1="15" start2="26" end2="39" changelist="f698ea44-0622-42c3-b07d-49a9696a0f3a" />
-        <range start1="25" end1="34" start2="49" end2="58" changelist="11ee498b-2d7c-441e-bafe-308ee8748c8f" />
-        <range start1="35" end1="36" start2="59" end2="60" changelist="11ee498b-2d7c-441e-bafe-308ee8748c8f" />
-        <range start1="141" end1="142" start2="165" end2="173" changelist="11ee498b-2d7c-441e-bafe-308ee8748c8f" />
-        <range start1="168" end1="169" start2="199" end2="201" changelist="11ee498b-2d7c-441e-bafe-308ee8748c8f" />
-      </ranges>
-    </file>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -163,7 +147,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680366087782</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Change jenkins file #13">
+      <created>1680366693187</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1680366693187</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Change jenkins file #14">
+      <created>1680527988306</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1680527988306</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -190,6 +188,8 @@
     <MESSAGE value="Change jenkins file #10" />
     <MESSAGE value="Change jenkins file #11" />
     <MESSAGE value="Change jenkins file #12" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change jenkins file #12" />
+    <MESSAGE value="Change jenkins file #13" />
+    <MESSAGE value="Change jenkins file #14" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change jenkins file #14" />
   </component>
 </project>
