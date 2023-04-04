@@ -30,7 +30,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>2.7.7</version>
                 <configuration>
-                    <mainClass>com.epam.javacc.microservices.EurekaServerApplication</mainClass>
+                    <mainClass>org.example.Main</mainClass>
                     <layout>JAR</layout>
                 </configuration>
                 <executions>

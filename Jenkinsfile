@@ -8,7 +8,7 @@ pipeline {
     stage('Build') {
       steps {
         checkout([$class: 'GitSCM', branches: [[name: '*/master']], userRemoteConfigs: [[url: 'https://github.com/DiabloHunter/Jenkins.git']]])
-        sh 'mvn -B clean install'
+        cmd 'mvn -B clean install'
         script {
           dockerImage = docker.build("djablo/test_repo:${env.BUILD_ID}")
         }
@@ -17,7 +17,7 @@ pipeline {
     stage('Push') {
       steps {
         script {
-          withCredentials([usernamePassword(credentialsId: 'dockerhub', usernameVariable: 'djablo', passwordVariable: 'Zxcasdqwe2002@')]) {
+          withCredentials([usernamePassword(credentialsId: 'dockerhub', usernameVariable: 'djablo', passwordVariable: 'password2002')]) {
             docker.withRegistry('https://registry.hub.docker.com', 'docker_cred') {
                 dockerImage.push()
             }
